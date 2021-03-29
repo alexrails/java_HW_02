@@ -13,7 +13,7 @@ public class Main {
 
         System.out.println("Sum of year, month and day my birthday is " + sum);
         //Second sentence
-        boolean monthBigger = (monthOfBirthday > dayOfBirthday) ? true : false;
+        boolean monthBigger = monthOfBirthday > dayOfBirthday;
 
         System.out.println("Month of my birthday more than day: " + monthBigger);
 
